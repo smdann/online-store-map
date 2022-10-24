@@ -54,7 +54,7 @@ The API routes for Categories, Products, and Tags can be tested in Insomnia.
 
 * API DELETE routes allow for the deletion of a Category, Product, or Tag by id.
 
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1FGh3oBhbylzJojPF0fDWia-azLnUEACX/view)
 
 ![Online Store Map Screenshot](./assets/images/online-store-map-screenshot.png)
 
