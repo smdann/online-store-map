@@ -7,7 +7,7 @@
 
 ## Description
 
-The Online Store Map is the back end for an e-commerce site and it uses Object-Relational-Mapping. Express.js API routes have been configured with Sequelize to interact with a MySQL database. 
+The Online Store Map is the back end for an e-commerce site and it uses Object-Relational-Mapping. Express.js API routes have been configured with Sequelize to interact with a MySQL database. The API routes are tested in Insomnia.
 
 ## Table of Contents
 
@@ -34,7 +34,25 @@ Use `npm run watch` to start the server.
 
 ## Usage 
 
+After creating an environment variable file and entering their MySQL credentials, the user is able to connect to the e-commerce database using Sequelize.
 
+Setting up the database:
+
+* Adding the MySQL commands found in the schema.sql file to the MySQL Workbench creates the e-commerce database.
+
+* In the terminal, the command `npm run seed` will create the Category, Product, Product_Tag, and Tag tables, as well as seed them with the data.
+
+Starting the application via the `npm run watch` command will start the server and sync the Sequelize models to the MySQL database.
+
+The API routes for Categories, Products, and Tags can be tested in Insomnia.
+
+* API GET routes return JSON formatted data. The GET routes are set up to return all or only by id.
+
+* API POST routes allow for the creation of a Category, Product or Tag by entering JSON formatted data. The data that is needed is defined in the model as columns.
+
+* API PUT routes allow for updating a Category, Product, or Tag by id. This is also complete by submitting JSON formatted data.
+
+* API DELETE routes allow for the deletion of a Category, Product, or Tag by id.
 
 [Walkthrough Video]()
 
