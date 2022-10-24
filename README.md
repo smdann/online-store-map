@@ -56,7 +56,7 @@ The API routes for Categories, Products, and Tags can be tested in Insomnia.
 
 [Walkthrough Video]()
 
-![Online Store Map Screenshot](./)
+![Online Store Map Screenshot](./assets/images/online-store-map-screenshot.png)
 
 ## License 
 
